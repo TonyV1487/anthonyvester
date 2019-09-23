@@ -1,0 +1,117 @@
+/* header css */
+a {
+  color: white;
+  text-decoration: none;
+}
+.button {
+  background-color: #25274d;
+  border-radius: 6px;
+  padding: 6px 12px;
+}
+.button:hover {
+  background-color: #25274d;
+  color: #2e9cca;
+}
+.button-flex {
+  display: flex;
+}
+.header {
+  background-color: #25274d;
+  display: flex;
+  justify-content: space-evenly;
+}
+.header-content {
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  width: 750px;
+}
+.name {
+  display: flex;
+  flex-direction: column;
+  font-family: "Satisfy", cursive;
+  font-size: x-large;
+  justify-content: center;
+  text-align: center;
+}
+.nav {
+  padding: 20px;
+}
+.p5 {
+  padding: 5px;
+}
+
+/* content css */
+.about-description {
+  font-size: large;
+}
+.body {
+  font-family: "PT Sans", sans-serif;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+.bottom-border {
+  border-bottom: 1px solid gray;
+}
+.contact-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin-top: 50px;
+}
+.headshot {
+  float: left;
+  height: 200px;
+  padding-right: 24px;
+}
+.nav {
+  display: flex;
+  list-style: none;
+}
+.portfolio-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.portfolio-image {
+  flex-wrap: wrap;
+  height: 200px;
+  justify-content: space-evenly;
+  margin: 12px;
+  width: 200px;
+}
+.section-content {
+  background-color: lightgray;
+  justify-content: space-evenly;
+  width: 750px;
+  padding: 10px;
+}
+.section-main {
+  background-color: #464866;
+  display: flex;
+  flex: 1;
+  justify-content: center;
+}
+
+/* footer css */
+.footer {
+  background-color: #25274d;
+  color: white;
+  display: flex;
+  justify-content: center;
+  padding: 24px;
+}
+
+/*  responsive styles screen size */
+@media (min-width: 1024px) and (max-width: 133px) {
+  .header-logo {
+    font-size: 96px;
+  }
+}
+
+@media (min-width: 1400px) {
+  .header-logo {
+    font-size: 96px;
+  }
+}
